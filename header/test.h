@@ -3,4 +3,8 @@
 
 #define my_field int x;
 
+class test {
+
+}
+
 #endif

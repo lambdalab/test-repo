@@ -3,3 +3,5 @@
 typedef struct X {
   my_field
 } X;
+
+test t;
