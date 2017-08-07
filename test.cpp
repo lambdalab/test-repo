@@ -32,18 +32,10 @@ void foo() {
 }
 
 
-//#include "test.h"
-//
-//int x = 1;
+#include "test.h"
 
+int x = 1;
 
-//#include <algorithm>
-//void foo() {
-//  static const struct A {
-//    
-//  } p[2] = { {}, {} };
-//  std::find_if(p, p + 1, [](const A &a) { return true; });
-//}
 
 //template<typename A>
 //void foo(A a) {
@@ -75,3 +67,11 @@ typedef struct X {
 
 //#include "test.h"
 //MK_TACTIC_FACTORY(hello)
+
+#include <algorithm>
+void foo() {
+    static const struct A {
+    
+  } p[2] = { {}, {} };
+  std::find_if(p, p + 1, [](const A &a) { return true; });
+}
