@@ -1,10 +1,10 @@
 //#define DF(t) int x = t;
 //
-//int test() {
-//  int t = 1;
-//  DF(t)
-//  return 0;
-//}
+int test() {
+ int t = 1;
+ DF(t)
+ return 0;
+}
 
 //
 //typedef struct GCState {
@@ -19,17 +19,17 @@
 //  x = 2;
 //}
 
-//#define MAKE_STATIC_PROP(PROP) \
-//int p1##PROP = 0; \
-//int p2##PROP = 0;
-//
-//void foo() {
-//  
-//  MAKE_STATIC_PROP(x)
-//
-//  p1x = 2;
-//  p2x = 3;
-//}
+#define MAKE_STATIC_PROP(PROP) \
+int p1##PROP = 0; \
+int p2##PROP = 0;
+
+void foo() {
+ 
+ MAKE_STATIC_PROP(x)
+
+ p1x = 2;
+ p2x = 3;
+}
 
 
 //#include "test.h"
