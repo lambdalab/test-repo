@@ -7,17 +7,12 @@
 //}
 
 //
-//typedef struct GCState {
-//} GCState;
+typedef struct GCState {
+} GCState;
 
 
 //#define FUN(x) void foo##x()
 //
-//FUN(a)
-//{
-//  int x = 1;
-//  x = 2;
-//}
 
 //#define MAKE_STATIC_PROP(PROP) \
 //int p1##PROP = 0; \
