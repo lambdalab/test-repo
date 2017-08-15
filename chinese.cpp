@@ -6,6 +6,8 @@ int /*哈哈*/ foo() {
 
 // Add some more comments
 
+// Add more comments
+
 /**
  *这里假装有很多中文
 **/
