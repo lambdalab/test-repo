@@ -18,6 +18,10 @@ namespace haha {
 //  int x = 1;
 
 
+
+// add some comment
+
+
 class MyClass {
   int v = x;
   /** comment2 **/
