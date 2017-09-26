@@ -1,10 +1,10 @@
 //#define DF(t) int x = t;
 //
-int test() {
- int t = 1;
- DF(t)
- return 0;
-}
+//int test() {
+// int t = 1;
+// DF(t)
+// return 0;
+//}
 
 //
 typedef struct GCState {
