@@ -6,6 +6,9 @@
 //  Copyright (c) 2015 lambdalab. All rights reserved.
 //
 
+
+hello
+
 #ifndef CppAnalyzer_test_h
 #define CppAnalyzer_test_h
 
